@@ -30,6 +30,14 @@ Installation
     $ npm install
     ```
 
+Credits
+-------
+
+### Sample images
+
+* [Falling Water]
+* [Falls]
+
 Bug Reports
 -----------
 
@@ -43,6 +51,8 @@ This library aims to adhere to [Semantic Versioning 2.0.0]. Violations of this s
 Specifically, if a minor or patch version is released that breaks backward compatibility, that version should be
 immediately yanked and / or a new version should be immediately released that restores compatibility.
 
+[Falling Water]: https://www.flickr.com/photos/zachd1_618/8048942272/ "Falling Water by Zach Dischner"
+[Falls]: https://www.flickr.com/photos/stop-play/10419646826/ "Falls by Daniel Sallai"
 [here]: https://github.com/bitaculous/image_optimizer/issues "GitHub Issue Tracker"
 [Image Optimizer]: # "Make images load faster."
 [Node.js]: https://nodejs.org "An event-driven I/O server-side JavaScript environment based on V8."
