@@ -30,6 +30,10 @@ Installation
     $ npm install
     ```
 
+4. Drop images into `source/images`
+
+5. Run `grunt make`
+
 Credits
 -------
 

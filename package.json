@@ -19,15 +19,17 @@
     "src": "source"
   },
   "scripts": {
-    "develop": "grunt develop:watch",
-    "test": "grunt test",
-    "build": "grunt build"
+    "make": "grunt make"
   },
   "engines": {
     "node": ">= 6.9.1"
   },
   "dependencies": {
     "grunt": "~1.0.1",
-    "grunt-contrib-imagemin": "~1.0.1"
+    "grunt-cli": "~1.2.0",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-imagemin": "~1.0.1",
+    "jit-grunt": "~0.10.0",
+    "time-grunt": "~1.4.0"
   }
 }
