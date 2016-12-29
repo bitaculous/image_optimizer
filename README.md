@@ -30,9 +30,12 @@ Installation
     $ npm install
     ```
 
-4. Drop images into `source/images`
+Usage
+-----
 
-5. Run `grunt make`
+1. Drop images into `source/images`
+
+2. Run `grunt make` to optimize the dropped images
 
 Credits
 -------
