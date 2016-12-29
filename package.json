@@ -6,9 +6,9 @@
     "Image",
     "Optimizer"
   ],
-  "homepage": "#",
+  "homepage": "https://bitaculous.github.io/image_optimizer/",
   "author": "Maik Kempe <mkempe@bitaculous.com> (https://bitaculous.com)",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "version": "0.0.1",
   "repository": {

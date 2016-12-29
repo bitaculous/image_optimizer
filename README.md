@@ -58,7 +58,7 @@ immediately yanked and / or a new version should be immediately released that re
 [Falling Water]: https://www.flickr.com/photos/zachd1_618/8048942272/ "Falling Water by Zach Dischner"
 [Falls]: https://www.flickr.com/photos/stop-play/10419646826/ "Falls by Daniel Sallai"
 [here]: https://github.com/bitaculous/image_optimizer/issues "GitHub Issue Tracker"
-[Image Optimizer]: # "Make images load faster."
+[Image Optimizer]: https://bitaculous.github.io/image_optimizer/ "Make images load faster."
 [Node.js]: https://nodejs.org "An event-driven I/O server-side JavaScript environment based on V8."
 [npm]: https://www.npmjs.com "A package manager for JavaScript"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
