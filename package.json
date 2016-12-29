@@ -1,0 +1,33 @@
+{
+  "name": "bitaculous-image_optimizer",
+  "description": "Make images load faster.",
+  "keywords": [
+    "Bitaculous",
+    "Image",
+    "Optimizer"
+  ],
+  "homepage": "#",
+  "author": "Maik Kempe <mkempe@bitaculous.com> (https://bitaculous.com)",
+  "private": true,
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bitaculous/image-optimizer.git"
+  },
+  "directories": {
+    "src": "source"
+  },
+  "scripts": {
+    "develop": "grunt develop:watch",
+    "test": "grunt test",
+    "build": "grunt build"
+  },
+  "engines": {
+    "node": ">= 6.9.1"
+  },
+  "dependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-imagemin": "~1.0.1"
+  }
+}
