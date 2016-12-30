@@ -21,7 +21,15 @@ let defaults = {
     },
 
     build: {
-      base: './build'
+      base: './build',
+
+      images: {
+        base: './build/images',
+
+        samples: {
+          base: './build/images/samples'
+        }
+      }
     },
 
     tmp: {
