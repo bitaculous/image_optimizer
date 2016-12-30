@@ -78,17 +78,20 @@ module.exports = function(grunt) {
   // Load all npm tasks through `jit-grunt`
   require('jit-grunt')(grunt, {});
 
-  // Set `build` task as the default task
+  // Set `make` task as the default task
   grunt.registerTask('default', 'Alias for `make` task', 'make');
 
   // Make task, invoked with `grunt make`
   grunt.registerTask('make', 'Make images load faster', function(/* target */) {
     grunt.task.run([
-      // Cleanup
+      // Cleanup via `grunt-contrib-clean`
       'clean:build',
 
-      // Optimized images
+      // Optimized images via `grunt-contrib-imagemin`
       'imagemin:build'
     ]);
   });
+
+  // Alias for `make` task
+  grunt.registerTask('build', 'Alias for `make` task', 'make');
 };
